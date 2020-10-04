@@ -10,4 +10,4 @@ if answ[1] == 'погода':
 		msg+='•Состояние: ' + str(weather["weather"][0]["description"]) + "\n";
 		apisay(msg,toho,torep)
 	except:
-		apisay('Я не нашла этот населённый пункт',toho,torep)
+		apisay('Я не нашёл этот населённый пункт',toho,torep)
