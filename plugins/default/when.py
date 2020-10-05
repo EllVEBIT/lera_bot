@@ -4,4 +4,4 @@ if answ[1] == 'когда':
 	if randnum <= 4:
 		apisay(random.choice(['Никогда','Когда рак на горе свистнет','Очень скоро','Завтра']),toho,torep)
 	else:
-		apisay('Я уверена это случится '+str(random.randint(1,31))+' '+random.choice(months)+' '+str(random.randint(2018,2050)),toho,torep)
+		apisay('Я уверен это случится '+str(random.randint(1,31))+' '+random.choice(months)+' '+str(random.randint(2018,2050)),toho,torep)
