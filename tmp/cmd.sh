@@ -1,1 +1,1 @@
-cat /home/pid/lera_bot/lera.py
+cat /home/pid/vkbot/bot.py
