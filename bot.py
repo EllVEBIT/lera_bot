@@ -70,7 +70,7 @@ while True:
 						answ[0] = answ[0].lower()
 						answ[1] = answ[1].lower()
 						if (str(userid) not in game_module['active_users'] and (answ[0] in kb_name) and ((answ[1] in kb_cmd["default"]) or (answ[1] in kb_cmd["vip"]) or (answ[1] in kb_cmd["admin"]))):
-							print('[Упоминание Леры в '+str(toho)+']')
+							print('[Упоминание Бота в '+str(toho)+']')
 							answ_text = result[5].split(' ')
 							if len(answ_text) >2:
 								answ_text.remove(answ_text[0])
@@ -102,7 +102,7 @@ while True:
 									pass
 							else:
 								if answ[1] in kb_cmd['admin']:
-									apisay('А ты что тут забыл? Ты охуел?',toho,torep)
+									apisay('А ты что тут забыл? Эта команда доступна лиш для owner',toho,torep)
 						if ((answ[0] in kb_name) and (answ[1] not in kb_cmd["default"]) and (answ[1] not in kb_cmd["vip"]) and (answ[1] not in kb_cmd["admin"]) and (str(userid) not in game_module['active_users'])):
 							blacklistcmds = ['гиф1','преакт1','цитата1','гцитата1']
 							if answ[1] not in blacklistcmds:
