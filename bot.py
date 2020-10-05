@@ -7,9 +7,7 @@ import requests
 import json
 import os
 import random
-import time
 import datetime
-from datetime import timedelta
 import untangle
 import urllib.parse
 token = os.environ.get('BOT_TOKEN')
