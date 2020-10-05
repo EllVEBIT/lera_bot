@@ -1,1 +1,1 @@
-worker: python lera.py
+worker: python bot.py
