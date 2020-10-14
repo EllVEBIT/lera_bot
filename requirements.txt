@@ -3,3 +3,7 @@ requests
 untangle 
 psutil
 pillow==3.3.1
+bs4
+xmltodict
+psycopg2-binary
+mcstatus
