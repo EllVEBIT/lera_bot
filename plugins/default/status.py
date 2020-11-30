@@ -1,4 +1,4 @@
-if (answ[0] in kb_name and answ[1] in ['стат','статус','стата']):
+if (answ[0] in bot_name and answ[1] in ['стат','статус','стата']):
 	text = '[ Статистика ]<br>Система:<br>&#8195;Процессоры:<br>'
 	for idx, cpu in enumerate(psutil.cpu_percent(interval=1, percpu=True)):
 		text += '&#8195;&#8195;Процессор №'+str(idx+1)+': '+str(cpu)+'%<br>'
