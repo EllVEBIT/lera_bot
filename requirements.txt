@@ -7,4 +7,3 @@ bs4
 xmltodict
 psycopg2-binary
 mcstatus
-PIL
