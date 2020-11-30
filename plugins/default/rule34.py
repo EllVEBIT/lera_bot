@@ -1,6 +1,6 @@
 if answ[1] == '34':
 	if 1==1:
-		if answ_text.split(' ')[0] in kb_name:
+		if answ_text.split(' ')[0] in bot_name:
 			r34text = ''
 		else:
 			r34text = answ_text
