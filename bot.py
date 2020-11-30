@@ -10,7 +10,7 @@ import random
 import datetime
 import untangle
 import urllib.parse
-token = ""
+token = os.environ.get('BOT_TOKEN')
 bot_name = ['bot','elin','елин','бот']
 def apisay(text,toho,torep):
 	param = (('v', '5.68'), ('peer_id', toho),('access_token',token),('message',text),('forward_messages',torep))
