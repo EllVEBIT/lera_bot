@@ -1,6 +1,0 @@
-{
-	"active_users":{},
-	"games_info":{
-		"talk":"plugins/games/talk.py"
-	}
-}
